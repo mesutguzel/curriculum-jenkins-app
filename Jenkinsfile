@@ -9,7 +9,7 @@ pipeline {
 
     stage('Log') {
       steps {
-        sh 'sudo usermod -aG docker $USER'
+        sh 'ls -la'
       }
     }
 
